@@ -4,11 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Quantum</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+
+        <div class="header__logo">QUANTUM</div>
+
+        <form class="header__search">
+            <input class="header__search-input" type="text" placeholder="Search goods">
+
+          <div class="header__search-dropdown">
+
+            <div class="header-select" data-select>
+              <div class="header__select-title" data-select-title>CATEGORY</div>
+              <div class="header__select-dropdown hidden">
+                <div class="header__select-dropdown-item" data-select-item="Mobile">Mobile</div>
+                <div class="header__select-dropdown-item" data-select-item="Tablet">Tablet</div>
+                <div class="header__select-dropdown-item" data-select-item="Laptop">Laptop</div>
+              </div>
+            </div>
+
+            <!-- <select  name="" id="">
+              <option value="">GATEGORY</option>
+              <option value="">Mobile</option>
+              <option value="">Tablet</option>
+              <option value="">Laptop</option>
+            </select> -->
+          </div>
+
+            <button class="header__search-button" type="submit"><img src="images/search_icon.png" alt=""></button>
+        </form>
+
+        <div class="header__buttons"></div>
+
+      </div>
+    </div>
+  </header>
 
 
 
@@ -19,7 +56,6 @@
 
 
 
-  
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
